@@ -1,0 +1,43 @@
+.sociales ul { list-style: none; }
+
+.sociales ul li {
+  display: inline-block;
+  position: relative;
+}
+
+.sociales ul li a::before {
+  color: #e082a8;
+  content: '\f08e';
+  display: inline-block;
+  font-family: 'FontAwesome';
+  font-size: 2rem;
+  padding: 0.4rem;
+  vertical-align: top;
+  -webkit-font-smoothing: antialiased;
+}
+
+.sociales ul li a[href*="facebook.com"]::before { content: '\f230'; }
+
+.sociales ul li a[href*="twitter.com"]::before { content: '\f081'; }
+
+.sociales ul li a[href*="instagram.com"]::before { content: '\f16d'; }
+
+.sociales ul li a[href*="pinterest.com"]::before { content: '\f0d2'; }
+
+.sociales ul li a[href*="youtube.com"]::before { content: '\f16a'; }
+
+.navegacion { background: #8ed3cc; }
+
+.navbar-light .navbar-toggler { background-color: #fff; }
+
+.navbar-light .navbar-brand, .navbar-light .navbar-brand:hover { color: #fff; }
+
+.nav-principal {
+  background-image: url(../images/border_horizontal.png), url(../images/border_horizontal.png);
+  background-position: 0px top, 0px bottom;
+  background-repeat: repeat-x;
+}
+
+.nav-link { font-size: 1.4rem; }
+
+.nav-link:hover { background-color: #39a68b; }
